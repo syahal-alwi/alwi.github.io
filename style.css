@@ -1,7 +1,7 @@
 body{
     min-height: 4000px;
 }
-jumbotron {
+.jumbotron {
     padding-top: 6rem;
     background-color: #fff;
 
