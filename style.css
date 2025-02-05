@@ -1,15 +1,22 @@
-body{
+:root {
+    --bg-color: #fff;
+    --padding-large: 6rem;
+    --padding-medium: 5rem;
+}
+
+body {
     min-height: 4000px;
 }
+
 .jumbotron {
-    padding-top: 6rem;
-    background-color: #fff;
+    padding-top: var(--padding-large);
+    background-color: var(--bg-color);
+}
 
-    }
+#projects {
+    background-color: var(--bg-color);
+}
 
-    #projects{
-        background-color: #fff;
-    }
-    section{
-        padding-top: 5rem;
-    }
+section {
+    padding-top: var(--padding-medium);
+}
